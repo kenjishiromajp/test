@@ -1,0 +1,31 @@
+{
+  "name": "storefront",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "clean": "rm -rf .next",
+    "dev": "next dev -p 3002",
+    "lint": "TIMING=1 next lint",
+    "start": "next start "
+  },
+  "dependencies": {
+    "@westpac/button": "^2.1.0",
+    "@westpac/core": "^3.1.0",
+    "@westpac/global-components": "workspace:*",
+    "@westpac/header": "^1.1.0",
+    "@westpac/wbc": "^3.0.1",
+    "next": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "@types/node": "^17.0.12",
+    "@types/react": "^17.0.13",
+    "@types/react-dom": "^18.0.10",
+    "eslint-config-custom": "workspace:*",
+    "tsconfig": "workspace:*",
+    "typescript": "^4.8.3"
+  }
+}
